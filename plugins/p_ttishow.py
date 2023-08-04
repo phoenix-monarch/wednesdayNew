@@ -9,7 +9,7 @@ from Script import script
 from pyrogram.errors import ChatAdminRequired
 import asyncio
 
-"""-----------------------------------------https://t.me/GetTGLink/4179 --------------------------------------"""
+"""-----------------------------------------https://t.me/team_netflix/30 --------------------------------------"""
 
 @Client.on_message(filters.new_chat_members & filters.group)
 async def save_group(bot, message):
@@ -59,7 +59,7 @@ async def save_group(bot, message):
                                                  caption=(script.MELCOW_ENG.format(u.mention, message.chat.title)),
                                                  reply_markup=InlineKeyboardMarkup(
                                                                          [[
-                                                                           InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=S_GROUP),
+                                                                           InlineKeyboardButton('Gʀᴏᴜᴘ', url=S_GROUP),
                                                                            InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=MAIN_CHANNEL)
                                                                         ]]
                                                  ),
