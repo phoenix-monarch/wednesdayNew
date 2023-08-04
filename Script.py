@@ -286,15 +286,16 @@ BY -WEDNESDAY
 </b>
 """
 
-    IMDB_TEMPLATE_TXT = """
-<b>🔖 ᴛɪᴛʟᴇ :<a href={url}>{title}</a>
+       IMDB_TEMPLATE_TXT = """
+<b>Query: {query}
+IMDb Data:
 
-🎭 ɢᴇɴʀᴇs : {genres}
-🎖 ʀᴀᴛɪɴɢ : <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
+× ᴛɪᴛᴛʟᴇ: <a href={url}>{title}</a>
+× ɢᴇɴʀᴇ: {genres}
+× ʀᴇʟᴇᴀsᴇ: <a href={url}/releaseinfo>{year}</a>
+× ʀᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a> / 10
+× ʀᴇǫᴜᴇꜱᴛᴇᴅ ʙʏ: {message.from_user.mention}
 
-📆 ʏᴇᴀʀ : {release_date}
-🗞 ʟᴀɴɢᴜᴀɢᴇ : {languages}
-🌎 ᴄᴏᴜɴᴛʀʏ : {countries}
 
 ©{message.chat.title}</b>
 """
