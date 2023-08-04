@@ -53,8 +53,8 @@ NOR_IMG = environ.get('NOR_IMG', "https://telegra.ph/file/7d7cbf0d6c39dc5a05f5a.
 SPELL_IMG = environ.get('SPELL_IMG',"https://telegra.ph/file/b58f576fed14cd645d2cf.jpg")
 
 # Welcome area
-MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/e54cae941b9b81f13eb71.jpg")
-MELCOW_VID = environ.get('MELCOW_VID',"")
+MELCOW_IMG = environ.get('MELCOW_IMG',"https://telegra.ph/file/a010115a026c34ecfefab.mp4")
+MELCOW_VID = environ.get('MELCOW_VID',"https://telegra.ph/file/a010115a026c34ecfefab.mp4")
 
 
 
@@ -99,13 +99,13 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 PORT = os.environ.get("PORT", "8080")
 MAX_BTN = int(environ.get('MAX_BTN', "7"))
-S_GROUP = environ.get('S_GROUP',"https://t.me/Elsasupportgp")
-MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/+1iWSCrpI_083MDM1")
-FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+1dbVg9pA2GphZmI1")
-MSG_ALRT = environ.get('MSG_ALRT', '𝑪𝑯𝑬𝑪𝑲 & 𝑻𝑹𝒀 𝑨𝑳𝑳 𝑴𝒀 𝑭𝑬𝑨𝑻𝑼𝑹𝑬𝑺')
+S_GROUP = environ.get('S_GROUP',"https://t.me/weebzonex")
+MAIN_CHANNEL = environ.get('MAIN_CHANNEL',"https://t.me/netflix_void")
+FILE_FORWARD = environ.get('FILE_FORWARD',"https://t.me/+FFcc39y_cWI1NmY1")
+MSG_ALRT = environ.get('MSG_ALRT', 'ᴄʜᴇᴄᴋ & ᴛʀʏ ᴀʟʟ ᴍʏ ғᴇᴀᴛᴜʀᴇꜱ')
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'Elsasupportgp')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'weebs_support')
 AUTO_DELETE = is_enabled((environ.get('AUTO_DELETE', "True")), True)
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
