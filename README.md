@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://telegra.ph/file/930ff28f8e22e70b00cfa.jpg" alt="Devil Botz">
+  <img src="https://telegra.ph/file/d00daf9f8262c67af9598.jpg" alt="Wednesday">
 </p>
 <h1 align="center">
-  <b>Elsa</b>
+  <b>Wednesday</b>
 </h1>
 
 <p align="center">
